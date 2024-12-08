@@ -1,0 +1,6 @@
+#sun {
+    height: 150px;
+    width: 150px;
+    background-image: linear-gradient(#fb5607, #ff006e, #8338ec);
+    border-radius: 50%;
+}
