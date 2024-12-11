@@ -1,6 +1,15 @@
+body {
+    background-color: rgba(250,234,231,1);
+    opacity: 1;
+    background-image:  linear-gradient(135deg, #e4c9ee 25%, transparent 25%), linear-gradient(225deg, #e4c9ee 25%, transparent 25%), linear-gradient(45deg, #e4c9ee 25%, transparent 25%), linear-gradient(315deg, #e4c9ee 25%, rgba(250,234,231,1) 25%);
+    background-position:  50px 0, 50px 0, 0 0, 0 0;
+    background-size: 50px 50px;
+    background-repeat: repeat;
+}
+
 #sun {
     height: 150px;
-    width: 150px;
-    background-image: linear-gradient(#fb5607, #ff006e, #8338ec);
-    border-radius: 50%;
+    width: 300px;
+    background-image: linear-gradient(#fb5607, #ffbe0b);
+    border-radius: 150px 150px 0px 0px;
 }
