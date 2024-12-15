@@ -31,7 +31,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    backdrop-filter: blur(10px);
 }
 
 h1 {
@@ -45,19 +44,23 @@ h1 {
 
 #ocean {
     height: 150px;
-    background-color: #031d44;
+    background-color: #00072d;
 }
 
-/*
 main {
-    background: whitesmoke;
-    height: 200vh;
-    width: 60vw;
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
 }
 
-footer {
-    height: 200px;
+#seashore {
+    height: 35vh;
     width: 100%;
-    background: sandybrown;
+    background: linear-gradient(#00072d, #001c55, #0a2472, #0e6ba8, #a6e1fa);
 }
-*/
+
+#beach {
+    height: 65vh;
+    width: 100%;
+    background-color: #ffba08;
+}
